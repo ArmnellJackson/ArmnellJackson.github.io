@@ -62,7 +62,7 @@ main {
 .clone-google {
     width: 240px;
     height: 240px;
-    background-image: url('../img/R.png');
+    background-image: url('../batata/assets/img/logo.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
