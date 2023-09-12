@@ -59,10 +59,29 @@ main {
     justify-content: center;
 }
 
-.clone-google {
+.batatabit {
     width: 240px;
     height: 240px;
     background-image: url('../batata/assets/img/logo.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.batatabit:hover {
+    opacity: 0.8;
+}
+
+.batatabit a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.clone-google {
+    width: 240px;
+    height: 240px;
+    background-image: url('../img/R.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;

@@ -1,3 +1,6 @@
 [submodule "batata"]
 	path = batata
 	url = git@github.com:ArmnellJackson/batata.git
+[submodule "GoogleClone"]
+	path = GoogleClone
+	url = git@github.com:ArmnellJackson/GoogleClone.git
