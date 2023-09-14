@@ -4,3 +4,6 @@
 [submodule "CloneGoogle"]
 	path = CloneGoogle
 	url = git@github.com:ArmnellJackson/CloneGoogle.git
+[submodule "Card-FlexBox-Grid"]
+	path = Card-FlexBox-Grid
+	url = git@github.com:ArmnellJackson/Card-FlexBox-Grid.git
