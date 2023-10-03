@@ -10,3 +10,6 @@
 [submodule "Pages-404-error"]
 	path = Pages-404-error
 	url = git@github.com:ArmnellJackson/Pages-404-error.git
+[submodule "My-team-page"]
+	path = My-team-page
+	url = git@github.com:ArmnellJackson/My-team-page.git
