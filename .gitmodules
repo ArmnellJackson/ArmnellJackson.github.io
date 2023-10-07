@@ -13,3 +13,6 @@
 [submodule "My-team-page"]
 	path = My-team-page
 	url = git@github.com:ArmnellJackson/My-team-page.git
+[submodule "Music-Player"]
+	path = Music-Player
+	url = git@github.com:ArmnellJackson/Music-Player.git
