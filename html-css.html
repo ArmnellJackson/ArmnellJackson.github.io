@@ -5,28 +5,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/html-css/html-css.css">
 </head>
 
 <body>
-    <header>
-        <h1>Armnell Gómez</h1>
-        <h2>HTML CSS</h2>
-    </header>
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">
+                <h1>Armnell Gómez</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse  justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav nav-underline">
+                    <a class="nav-link" href="/">Home</a>
+                    <a class="nav-link active" href="./html-css.html">HTML&CSS</a>
+                    <!-- <a class="nav-link" href="#">Pricing</a> -->
+                    <!-- <a class="nav-link disabled" aria-disabled="true">Disabled</a> -->
+                </div>
+            </div>
+        </div>
+    </nav>
 
     <main>
         <section class="proyectos">
-            <a href="./batata/index.html"><img src="./batata/assets/img/logo.svg" alt="batatabit-logo"></a>
-            <a href="./CloneGoogle/google.html"><img src="./img/R.png" alt="google-logo"></a>
-            <a href="./Card-FlexBox-Grid/"><img src="./img/Captura de pantalla 2023-09-15 180441.png" alt="card"></a>
-            <a href="./Pages-404-error/"><img src="./img/404.jpeg" alt="error-404"></a>
-            <a href="./My-team-page/"><img src="./img/marvel-and-dc.jpg" alt="my-team-page"></a>
-            <a href="./Music-Player/"><img src="./img/media-player.jpeg" alt="media-player"></a>
+
+            <div class="card style-card" style="width: 18rem;">
+                <a href="./batata/index.html">
+                    <img src="./batata/assets/img/logo.svg" alt="batatabit-logo">
+                </a>
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+
+            <div class="card style-card" style="width: 18rem;">
+                <a href="./CloneGoogle/google.html"><img src="./img/R.png" alt="google-logo"></a>
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+
+            <div class="card style-card" style="width: 18rem;">
+                <a href="./Card-FlexBox-Grid/"><img src="./img/Captura de pantalla 2023-09-15 180441.png"
+                        alt="card"></a>
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+
+            <div class="card style-card" style="width: 18rem;">
+                <a href="./Pages-404-error/"><img src="./img/404.jpeg" alt="error-404"></a>
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+
+            <div class="card style-card" style="width: 18rem;">
+                <a href="./My-team-page/"><img src="./img/marvel-and-dc.jpg" alt="my-team-page"></a>
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+
+            <div class="card style-card" style="width: 18rem;">
+                <a href="./Music-Player/"><img src="./img/media-player.jpeg" alt="media-player"></a>
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
 
         </section>
     </main>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
