@@ -17,6 +17,10 @@ html {
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700');
 
+#favicon {
+    border-radius: 50%;
+}
+
 body {
     font-size: 1.6rem;
     font-family: 'Oswald', sans-serif;
@@ -35,10 +39,11 @@ h2 {
 
 header {
     width: 100%;
-    background-image: url('./img/descargar\ \(1\).jpeg');
+    background: var(--fourth-color);
+    /* background-image: url('./img/descargar\ \(1\).jpeg');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 
 header section {
@@ -48,6 +53,12 @@ header section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.navbar-brand {
+    width: 42px;
+    margin: 0;
+    padding: 0;
 }
 
 main {
@@ -87,16 +98,41 @@ img {
     opacity: 0.6;
 }
 
+.card-body {
+    text-align: center;
+}
+
 footer {
     width: 100%;
     height: 50px;
     border-top: 1px solid var(--fourth-color);
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 0 7.5px;
 }
 
 footer .social {
-    margin-left: 7.5px;
     display: flex;
     gap: 7.5px;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+footer div .autor {
+    display: flex;
+}
+
+footer div .autor p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.logo-footer {
+    margin-bottom: 3px;
+    width: 26px;
 }
